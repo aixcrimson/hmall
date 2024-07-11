@@ -14,7 +14,8 @@
         <module>item-service</module>
         <module>cart-service</module>
         <module>hm-api</module>
-        <module>hm-user</module>
+        <module>user-service</module>
+        <module>trade-service</module>
     </modules>
 
     <parent>

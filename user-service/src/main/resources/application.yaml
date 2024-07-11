@@ -2,7 +2,7 @@ server:
   port: 8084
 spring:
   application:
-    name: cart-service
+    name: user-service
   profiles:
     active: dev
   datasource:
@@ -30,8 +30,8 @@ logging:
 knife4j:
   enable: true
   openapi:
-    title: 黑马商城购物车接口文档
-    description: "黑马商城购物车接口文档"
+    title: 用户服务接口文档
+    description: "用户服务接口文档"
     email: hitori150221@outlook.com
     concat: aixcrimson
     url: https://www.itcast.cn
