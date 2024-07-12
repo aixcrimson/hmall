@@ -31,7 +31,7 @@ knife4j:
   enable: true
   openapi:
     title: 交易服务接口文档
-    description: "黑马商城购物车接口文档"
+    description: "交易接口文档"
     email: hitori150221@outlook.com
     concat: aixcrimson
     url: https://www.itcast.cn

@@ -1,46 +1,53 @@
-18:07:26:665  INFO 20588 --- [main] com.hmall.pay.PayApplication             : Starting PayApplication using Java 17.0.6 on hitori with PID 20588 (D:\demo\hmall\pay-service\target\classes started by dutyzero in D:\demo\hmall)
-18:07:26:666 DEBUG 20588 --- [main] com.hmall.pay.PayApplication             : Running with Spring Boot v2.7.12, Spring v5.3.27
-18:07:26:666  INFO 20588 --- [main] com.hmall.pay.PayApplication             : The following 1 profile is active: "local"
-18:07:27:652  INFO 20588 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bc899583-0882-38ee-ac63-38816b69072d
-18:07:28:087  INFO 20588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
-18:07:28:098  INFO 20588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-18:07:28:098  INFO 20588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
-18:07:28:223  INFO 20588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-18:07:28:223  INFO 20588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
-18:07:28:439  INFO 20588 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
-18:07:28:492  INFO 20588 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
-18:07:29:344  INFO 20588 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-18:07:29:713  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of cdd365cd-76a5-46dc-846d-dd7efe3ffb85
-18:07:29:773  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 3 keys and 6 values 
-18:07:29:803  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
-18:07:29:813  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
-18:07:29:816  WARN 20588 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:07:29:822  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
-18:07:29:833  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
-18:07:29:843  INFO 20588 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
-18:07:29:845  WARN 20588 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
-18:07:29:846  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] RpcClient init label, labels = {module=naming, source=sdk}
-18:07:29:848  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
-18:07:29:848  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
-18:07:29:849  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
-18:07:29:851  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Try to connect to server on start up, server: {serverIp = '192.168.31.68', server main port = 8848}
-18:07:30:912  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Success to connect to server [192.168.31.68:8848] on start up, connectionId = 1720692452853_192.168.31.62_49626
-18:07:30:913  INFO 20588 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Notify connected event to listeners.
-18:07:30:914  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
-18:07:30:914  INFO 20588 --- [main] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$989/0x00000008013adb00
-18:07:30:973  INFO 20588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
-18:07:30:986  INFO 20588 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 192.168.31.62:8086 register finished
-18:07:31:172  INFO 20588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-18:07:31:176  INFO 20588 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-18:07:31:209  INFO 20588 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-18:07:31:334  INFO 20588 --- [main] com.hmall.pay.PayApplication             : Started PayApplication in 5.352 seconds (JVM running for 6.183)
-18:07:31:481  INFO 20588 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Receive server push request, request = NotifySubscriberRequest, requestId = 29
-18:07:31:484  INFO 20588 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [cdd365cd-76a5-46dc-846d-dd7efe3ffb85] Ack server push request, request = NotifySubscriberRequest, requestId = 29
-18:07:40:012  INFO 20588 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-18:07:40:013  INFO 20588 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-18:07:40:014  INFO 20588 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-18:07:44:623  INFO 20588 --- [http-nio-8086-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-18:07:44:883  INFO 20588 --- [http-nio-8086-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-18:07:44:890 DEBUG 20588 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order
-18:07:44:916 DEBUG 20588 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 
-18:07:44:945 DEBUG 20588 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 2
+23:00:09:582  INFO 19492 --- [main] com.hmall.pay.PayApplication             : Starting PayApplication using Java 17.0.6 on hitori with PID 19492 (D:\demo\hmall\pay-service\target\classes started by dutyzero in D:\demo\hmall)
+23:00:09:589 DEBUG 19492 --- [main] com.hmall.pay.PayApplication             : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:00:09:590  INFO 19492 --- [main] com.hmall.pay.PayApplication             : The following 1 profile is active: "local"
+23:00:11:056  INFO 19492 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bc899583-0882-38ee-ac63-38816b69072d
+23:00:11:635  INFO 19492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+23:00:11:646  INFO 19492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:00:11:646  INFO 19492 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:00:11:847  INFO 19492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:00:11:848  INFO 19492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2181 ms
+23:00:11:955  WARN 19492 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.hmall.pay.controller.PayController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b]
+23:00:11:961  INFO 19492 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+23:00:11:993  INFO 19492 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23:00:12:040 ERROR 19492 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.hmall.pay.controller.PayController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.pay.PayApplication.main(PayApplication.java:14) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.hmall.pay.controller.PayController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/hmall/common/exception/BizIllegalException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.27.jar:5.3.27]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.hmall.common.exception.BizIllegalException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 24 common frames omitted
+
