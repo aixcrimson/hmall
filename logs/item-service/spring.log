@@ -72,3 +72,14 @@
 22:59:53:095  INFO 6584 --- [nacos-grpc-client-executor-14] com.alibaba.nacos.common.remote.client   : [d67170ca-da5f-411b-8c41-75830a6bc091] Ack server push request, request = NotifySubscriberRequest, requestId = 3
 22:59:53:099  INFO 3320 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [8fd2b3b9-36ca-4542-83bf-d9dec52df50e] Receive server push request, request = NotifySubscriberRequest, requestId = 4
 22:59:53:105  INFO 3320 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [8fd2b3b9-36ca-4542-83bf-d9dec52df50e] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+23:14:58:151  INFO 6584 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:14:58:152  INFO 6584 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:14:58:153  INFO 6584 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23:14:58:268  INFO 6584 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:14:58:533  INFO 6584 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:14:58:539 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) FROM item
+23:14:58:560 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 
+23:14:59:043 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+23:14:59:053 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id, name, price, stock, image, category, brand, spec, sold, comment_count, isAD, status, create_time, update_time, creater, updater FROM item ORDER BY update_time DESC LIMIT ?
+23:14:59:053 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Long)
+23:14:59:059 DEBUG 6584 --- [http-nio-8081-exec-1] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1

@@ -34,3 +34,11 @@
 23:01:02:869  INFO 21480 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 5.255 seconds (JVM running for 5.972)
 23:01:03:104  INFO 21480 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [34747b93-a815-4150-b2c7-6f8f945c0b95] Receive server push request, request = NotifySubscriberRequest, requestId = 7
 23:01:03:118  INFO 21480 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [34747b93-a815-4150-b2c7-6f8f945c0b95] Ack server push request, request = NotifySubscriberRequest, requestId = 7
+23:12:16:710  INFO 21480 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:12:16:710  INFO 21480 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:12:16:711  INFO 21480 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+23:12:16:858  INFO 21480 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:12:17:117  INFO 21480 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:12:17:122 DEBUG 21480 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+23:12:17:148 DEBUG 21480 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+23:12:17:184 DEBUG 21480 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
