@@ -39,3 +39,23 @@
 20:22:01:811  INFO 15248 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 20:22:01:839  INFO 15248 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 20:22:01:936  INFO 15248 --- [main] com.hmall.pay.PayApplication             : Started PayApplication in 9.843 seconds (JVM running for 10.767)
+20:29:03:584  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Server healthy check fail, currentConnection = 1721046119998_192.168.31.1_54922
+20:29:03:585  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+20:29:04:719  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Success to connect a server [192.168.31.68:8848], connectionId = 1721046544198_192.168.31.1_49281
+20:29:04:719  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Abandon prev connection, server is 192.168.31.68:8848, connectionId is 1721046119998_192.168.31.1_54922
+20:29:04:719  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1721046119998_192.168.31.1_54922
+20:29:04:721  INFO 15248 --- [nacos-grpc-client-executor-103] c.a.n.c.remote.client.grpc.GrpcClient    : [1721046119998_192.168.31.1_54922]Ignore complete event,isRunning:false,isAbandon=true
+20:29:04:723  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Notify disconnected event to listeners
+20:29:04:724  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Notify connected event to listeners.
+20:29:07:260  INFO 15248 --- [nacos-grpc-client-executor-106] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Receive server push request, request = NotifySubscriberRequest, requestId = 12
+20:29:07:262  INFO 15248 --- [nacos-grpc-client-executor-106] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Ack server push request, request = NotifySubscriberRequest, requestId = 12
+21:17:28:605  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Server healthy check fail, currentConnection = 1721046544198_192.168.31.1_49281
+21:17:28:605  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:17:28:730  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Success to connect a server [192.168.31.68:8848], connectionId = 1721049448159_192.168.31.1_62347
+21:17:28:730  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Abandon prev connection, server is 192.168.31.68:8848, connectionId is 1721046544198_192.168.31.1_49281
+21:17:28:730  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1721046544198_192.168.31.1_49281
+21:17:28:730  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Notify disconnected event to listeners
+21:17:28:731  INFO 15248 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Notify connected event to listeners.
+21:17:28:731  WARN 15248 --- [nacos-grpc-client-executor-688] c.a.n.c.remote.client.grpc.GrpcClient    : [1721046544198_192.168.31.1_49281]Ignore error event,isRunning:true,isAbandon=true
+21:17:31:579  INFO 15248 --- [nacos-grpc-client-executor-692] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Receive server push request, request = NotifySubscriberRequest, requestId = 20
+21:17:31:580  INFO 15248 --- [nacos-grpc-client-executor-692] com.alibaba.nacos.common.remote.client   : [2be88aa2-e3ed-4014-b5d8-2c39f4e4c643] Ack server push request, request = NotifySubscriberRequest, requestId = 20

@@ -37,3 +37,34 @@
 20:22:07:147  INFO 19372 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 20:22:07:164  INFO 19372 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 20:22:07:250  INFO 19372 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 9.134 seconds (JVM running for 9.878)
+20:29:04:051  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Server healthy check fail, currentConnection = 1721046125379_192.168.31.1_54942
+20:29:04:051  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+20:29:04:174  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Success to connect a server [192.168.31.68:8848], connectionId = 1721046543656_192.168.31.1_49282
+20:29:04:174  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Abandon prev connection, server is 192.168.31.68:8848, connectionId is 1721046125379_192.168.31.1_54942
+20:29:04:174  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1721046125379_192.168.31.1_54942
+20:29:04:182  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Notify disconnected event to listeners
+20:29:04:183  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Notify connected event to listeners.
+20:29:04:184  WARN 19372 --- [nacos-grpc-client-executor-104] c.a.n.c.remote.client.grpc.GrpcClient    : [1721046125379_192.168.31.1_54942]Ignore error event,isRunning:true,isAbandon=true
+20:29:06:655  INFO 19372 --- [nacos-grpc-client-executor-108] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Receive server push request, request = NotifySubscriberRequest, requestId = 11
+20:29:06:656  INFO 19372 --- [nacos-grpc-client-executor-108] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Ack server push request, request = NotifySubscriberRequest, requestId = 11
+21:17:28:088  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Server healthy check fail, currentConnection = 1721046543656_192.168.31.1_49282
+21:17:28:088  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:17:29:225  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Success to connect a server [192.168.31.68:8848], connectionId = 1721049448654_192.168.31.1_62341
+21:17:29:225  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Abandon prev connection, server is 192.168.31.68:8848, connectionId is 1721046543656_192.168.31.1_49282
+21:17:29:225  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1721046543656_192.168.31.1_49282
+21:17:29:225  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Notify disconnected event to listeners
+21:17:29:226  INFO 19372 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Notify connected event to listeners.
+21:17:29:226  WARN 19372 --- [nacos-grpc-client-executor-691] c.a.n.c.remote.client.grpc.GrpcClient    : [1721046543656_192.168.31.1_49282]Ignore error event,isRunning:true,isAbandon=true
+21:17:31:074  INFO 19372 --- [nacos-grpc-client-executor-694] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Receive server push request, request = NotifySubscriberRequest, requestId = 19
+21:17:31:074  INFO 19372 --- [nacos-grpc-client-executor-694] com.alibaba.nacos.common.remote.client   : [a05c49b6-488c-4db7-a589-0b0c18b1f2df] Ack server push request, request = NotifySubscriberRequest, requestId = 19
+21:46:50:996  INFO 19372 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:46:50:996  INFO 19372 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21:46:50:998  INFO 19372 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+21:46:51:179  INFO 19372 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+21:46:51:445  INFO 19372 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+21:46:51:452 DEBUG 19372 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:46:51:475 DEBUG 19372 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+21:46:51:510 DEBUG 19372 --- [http-nio-8084-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+21:47:27:027 DEBUG 19372 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+21:47:27:028 DEBUG 19372 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: rose(String)
+21:47:27:029 DEBUG 19372 --- [http-nio-8084-exec-2] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1

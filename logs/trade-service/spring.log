@@ -39,3 +39,13 @@
 20:22:03:161  INFO 18336 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 20:22:03:178  INFO 18336 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 20:22:03:247  INFO 18336 --- [main] com.hmall.trade.TradeApplication         : Started TradeApplication in 9.834 seconds (JVM running for 10.635)
+21:17:28:168  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Server healthy check fail, currentConnection = 1721046121339_192.168.31.1_54937
+21:17:28:169  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+21:17:29:288  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Success to connect a server [192.168.31.68:8848], connectionId = 1721049448728_192.168.31.1_62344
+21:17:29:288  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Abandon prev connection, server is 192.168.31.68:8848, connectionId is 1721046121339_192.168.31.1_54937
+21:17:29:288  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1721046121339_192.168.31.1_54937
+21:17:29:290  INFO 18336 --- [nacos-grpc-client-executor-687] c.a.n.c.remote.client.grpc.GrpcClient    : [1721046121339_192.168.31.1_54937]Ignore complete event,isRunning:false,isAbandon=true
+21:17:29:291  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Notify disconnected event to listeners
+21:17:29:292  INFO 18336 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Notify connected event to listeners.
+21:17:29:868  INFO 18336 --- [nacos-grpc-client-executor-690] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Receive server push request, request = NotifySubscriberRequest, requestId = 17
+21:17:29:869  INFO 18336 --- [nacos-grpc-client-executor-690] com.alibaba.nacos.common.remote.client   : [094a646e-e079-4f01-baec-9108a5d327b9] Ack server push request, request = NotifySubscriberRequest, requestId = 17
